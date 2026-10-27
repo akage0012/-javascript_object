@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+body {
+  font-family: sans-serif;
+  background-image: url('images/okumono_umi20.png');
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  color: #fe0000;
+}
+
+.buttons {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 8px 16px;
+  margin: 0 5px;
+  cursor: pointer;
+  border: 1px solid #fcfbfa;
+  border-radius: 8px;
+}
+
+#product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  width: 220px;
+  background: #ffefde;
+  border-radius: 8px;
+  text-align: center;
+  padding: 15px;
+}
+
+.card img {
+  max-width: 100%;
+  height: 150px;
+  object-fit: contain;
+}
+
+.card h2 {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.price {
+  font-weight: bold;
+  color: #fe0000;
+}
+
+footer {
+  text-align: center;
+}
